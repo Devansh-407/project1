@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;/*syntax is upar nich ka gap and right left ka gap*/
+}
+#navp1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+#nav h3{
+    font-size: 17px;
+    border: 1px solid black;
+    font-weight: 500px;
+    padding: 5px 10px;
+    border-radius: 50px;
+
+
+}
+#nav i{
+    font-size: 16px;
+    border: 1px solid rgb(0, 0, 0);
+    font-weight: 500px;
+    padding: 5px 10px;
+    border-radius: 50px;
+
+
+}
+#navp2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+
+}
+#nav h1{
+    font-weight: 500px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#i2{
+    font-size: 16px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    font-weight: 500px;
+    padding: 5px 10px;
+    border-radius: 50px;
+
+
+}
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: 600px;
+    
+}
+#butn2{
+    color: white;
+    background-color: orangered;
+    border: none;
+}
+#main>h1{
+    /*> ye arrow dikha raha he main ke andar jo direct h1 he*/
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+
+}
+img{
+    height: 400px;
+    width: 350px;
+    /*background-size: cover; used for background images*/
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+    
+    
+}
+#image1{
+    transform: translate(-50%,-50%) rotate(-40deg)
+
+
+}#image2{
+    transform: translate(-50%,-50%) rotate(-30deg)
+
+
+}#image3{
+    transform: translate(-50%,-50%) rotate(-15deg)
+
+
+}
+
+
+#btm1{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+#btm2{
+    font-size: 50px;
+    
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+
+}
+#btm3{
+    font-size: 20px;
+    font-weight: lighter;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
